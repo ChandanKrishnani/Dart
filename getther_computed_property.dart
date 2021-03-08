@@ -16,7 +16,7 @@ void printarea(shape shape)
 }
 abstract class shape
 {
-double get area;
+double get area;//using get we have created area function as a getther computer property and that it at all
 }
 class square implements shape
 {
