@@ -6,7 +6,13 @@ void main()
   final jk2=circle(jk: 20);
   print(jk2.area());
   print(pi);
+  printarea(jk);
+  printarea(jk2);
 
+}
+void printarea(shape shape)
+{
+  print(shape.area());
 }
 abstract class shape
 {
